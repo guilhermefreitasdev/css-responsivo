@@ -76,7 +76,8 @@ nav a {
 .produtos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    column-gap: 4%;
+    row-gap: 2%;
 }
 
 .produto {
