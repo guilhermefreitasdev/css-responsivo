@@ -12,29 +12,30 @@ body {
 }
 
 header {
-background-color: #1e40af;
-color: white;
-padding: 20px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
+    background-color: #1e40af;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 header h1 {
-font-size: 1.8rem;
-margin: 0;
+    font-size: 1.8rem;
+    margin: 0;
 }
 
 nav {
-display: flex;
-gap: 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 nav a {
-color: white;
-text-decoration: none;
-font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
