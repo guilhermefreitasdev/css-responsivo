@@ -117,9 +117,13 @@ font-weight: bold;
 
 @media (max-width: 1023px) {
 .sobre-a-loja {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
+
+.sobre-a-loja img {
+    max-width: 50%;
+    }
 
 .produtos {
     grid-template-columns: repeat(2, 1fr);
@@ -132,6 +136,8 @@ font-weight: bold;
     text-align: left;
     padding: 15px;
 }
+
+
 
 header h1 {
     font-size: 1.5rem;
@@ -150,4 +156,6 @@ nav a {
 .produtos {
     grid-template-columns: 1fr;
     }
+
+
 }
